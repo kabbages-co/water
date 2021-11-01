@@ -4,6 +4,7 @@ resources:
   - k8s-at-home.yaml
   - coredns.yaml
   - jetstack.yaml
+  - bitnami.yaml
 
 patches:
   - target:
