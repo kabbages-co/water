@@ -11,3 +11,8 @@ spec:
   sourceRef:
     kind: GitRepository
     name: water
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-gpg
+
