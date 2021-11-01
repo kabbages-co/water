@@ -4,6 +4,7 @@ resources:
   - flux-system/
   - cert-manager/
   - external-dns/
+  - cattle-system/
 
 patches:
   - target:

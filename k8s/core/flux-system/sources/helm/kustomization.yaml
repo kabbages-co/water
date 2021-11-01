@@ -5,6 +5,7 @@ resources:
   - coredns.yaml
   - jetstack.yaml
   - bitnami.yaml
+  - rancher-latest.yaml
 
 patches:
   - target:

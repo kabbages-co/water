@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmRepository
+metadata:
+  name: rancher-latest
+spec:
+  url: https://releases.rancher.com/server-charts/latest
+
+
