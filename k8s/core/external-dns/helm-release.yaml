@@ -20,6 +20,7 @@ spec:
 
     sources:
       - service
+      - ingress
 
     provider: cloudflare
 
