@@ -9,8 +9,6 @@ spec:
   ref:
     branch: main
   url: https://github.com/kabbages-co/water.git
-  secretRef:
-    name: ssh-creds
 
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
