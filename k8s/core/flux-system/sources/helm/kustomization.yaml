@@ -1,0 +1,20 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - k8s-at-home.yaml
+  - coredns.yaml
+  - jetstack.yaml
+
+patches:
+  - target:
+      group: source.toolkit.fluxcd.io
+      version: v1beta1
+      kind: HelmRepository
+    patch: |
+      apiVersion: source.toolkit.fluxcd.io/v1beta1
+      kind: HelmRepository
+      metadata:
+        name: charts
+      spec:
+        interval: 10m
+        timeout: 3m

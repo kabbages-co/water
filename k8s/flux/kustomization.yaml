@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
   - flux-components.yaml
   - water.yaml
+  - core.yaml
 
 patches:
   - target:
