@@ -26,3 +26,5 @@ spec:
 
     cloudflare:
       secretName: cloudflare-api-token
+      proxied: false
+
