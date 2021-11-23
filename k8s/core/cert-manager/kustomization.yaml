@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - helm-release.yaml
-  # - le-staging.yaml
-  # - le-prod.yaml
+  - le-staging.yaml
+  - le-prod.yaml
   - cloudflare-kabbags-co-api-token-secret.enc.yaml

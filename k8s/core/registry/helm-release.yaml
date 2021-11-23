@@ -22,3 +22,9 @@ spec:
       enabled: true
       hosts:
         - registry.kabbages.co
+      annotations:
+        cert-manager.io/cluster-issuer: "le-prod"
+      tls:
+        - hosts:
+          - registry.kabbages.co
+          secretName: registry-cert
