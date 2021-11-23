@@ -6,6 +6,7 @@ resources:
   - jetstack.yaml
   - bitnami.yaml
   - rancher-latest.yaml
+  - twuni.yaml
 
 patches:
   - target:
